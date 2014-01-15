@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/asd"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AdmitereAraba" >
+
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/secretariat_araba"
+        android:onClick="AdmitereSecretariatAraba" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:textColor="@color/platinum"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/big_grey_up"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:text="@string/subiecte_anterioare_araba" 
+        android:onClick="AdmitereSubiecte"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/big_grey_up"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:text="@string/acte_taxe_araba"
+        android:onClick="AdmitereActeTaxeAraba" />
+    
+</RelativeLayout>

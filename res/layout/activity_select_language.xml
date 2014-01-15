@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/asd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SelectLanguage" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/jungle"
+        android:layout_marginTop="16dp"
+        android:textSize="28sp"
+        android:text="@string/textView1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:textColor="@color/jungle"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:layout_marginTop="18dp"
+        android:text="@string/textView2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/small_grey_plus_plus"
+        android:text="@string/button1" 
+        android:onClick="selectWelcomeRomana"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/small_grey_plus_plus"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:text="@string/button2" 
+        android:onClick="selectWelcomeEngleza"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/small_grey_plus_plus"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:text="@string/button3"
+        android:onClick="selectWelcomeFranceza" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/small_grey_plus_plus"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:text="@string/button4" 
+        android:onClick="selectWelcomeGermana"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/small_grey_plus_plus"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button4"
+        android:text="@string/button5"
+        android:onClick="selectWelcomeTurca" />
+    
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/platinum"
+        android:background="@drawable/small_grey_plus_plus"
+        android:layout_alignRight="@+id/button4"
+        android:layout_below="@+id/button5"
+        android:text="@string/button6"
+        android:onClick="selectWelcomeAraba" />
+    
+
+</RelativeLayout>

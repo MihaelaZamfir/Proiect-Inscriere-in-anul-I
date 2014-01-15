@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FILS Student Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_welcome_romana">Bine ati venit</string>
+    <string name="title_activity_welcome_engleza">Welcome</string>
+    <string name="title_activity_welcome_franceza">Accueil</string>
+    <string name="title_activity_welcome_germana">Willkommen</string>
+    <string name="title_activity_welcome_turca">Karşılama</string>
+    <string name="title_activity_welcome_araba">ترحيب</string>
+    <string name="title_activity_despre_romana">Despre FILS</string>
+    <string name="title_activity_despre_engleza">About FILS</string>
+    <string name="title_activity_despre_franceza">À propos de fils</string>
+    <string name="title_activity_despre_germana">Über FILS</string>
+    <string name="title_activity_despre_turca">Hakkında FILS</string>
+    <string name="title_activity_despre_araba">حول فلسا</string>
+    <string name="title_activity_admitere_romana">Admitere</string>
+    <string name="title_activity_admitere_engleza">Acceptance</string>
+    <string name="title_activity_admitere_franceza">Admission</string>
+    <string name="title_activity_admitere_germana">Eintritt</string>
+    <string name="title_activity_admitere_turca">Kabul</string>
+    <string name="title_activity_admitere_araba">قبول</string>
+    <string name="title_activity_orientare_romana">Orientare</string>
+    <string name="title_activity_orientare_engleza">Orientation</string>
+    <string name="title_activity_orientare_franceza">Orientation</string>
+    <string name="title_activity_orientare_germana">Orientierung</string>
+    <string name="title_activity_orientare_turca">Oryantasyon</string>
+    <string name="title_activity_orientare_araba">توجه</string>
+    <string name="title_activity_timp_romana">Timp Liber</string>
+    <string name="title_activity_timp_engleza">Free Time</string>
+    <string name="title_activity_timp_franceza">Loisir</string>
+    <string name="title_activity_timp_germana">Freizeit</string>
+    <string name="title_activity_timp_turca">Boş</string>
+    <string name="title_activity_timp_araba">وقت الفراغ</string>
+    <string name="title_activity_altele_romana">Altele</string>
+    <string name="title_activity_altele_engleza">Other</string>
+    <string name="title_activity_altele_germana">Andere</string>
+    <string name="title_activity_altele_franceza">Autre</string>
+    <string name="title_activity_altele_turca">Diğer</string>
+    <string name="title_activity_altele_araba">آخر</string>
+    <string name="title_activity_fil_franc_romana">Filiera Franceza</string>
+    <string name="title_activity_fil_franc_engleza">French Branch</string>
+    <string name="title_activity_fil_franc_franceza">FilFrancFranceza</string>
+    <string name="title_activity_fil_franc_germana">Französisch-Verbindung</string>
+    <string name="title_activity_fil_franc_turca">Fransız Bağlantı</string>
+    <string name="title_activity_fil_franc_araba">اتصال الفرنسية</string>
+    <string name="title_activity_fil_eng_romana">Filiera Engleza</string>
+    <string name="title_activity_fil_eng_engleza">English Branch</string>
+    <string name="title_activity_fil_eng_franceza">Anglais Connexion</string>
+    <string name="title_activity_fil_eng_germana">Englisch-Verbindung</string>
+    <string name="title_activity_fil_eng_turca">İngilizce Bağlantı</string>
+    <string name="title_activity_fil_eng_araba">اتصال الانجليزية</string>
+    <string name="title_activity_fil_germ_romana">Filiera Germana</string>
+    <string name="title_activity_fil_germ_engleza">German Branch</string>
+    <string name="title_activity_fil_germ_franceza">Connexion Allemand</string>
+    <string name="title_activity_fil_germ_germana">Deutsch-Verbindung</string>
+    <string name="title_activity_fil_germ_turca">Alman Bağlantı</string>
+    <string name="title_activity_fil_germ_araba">اتصال الألمانية</string>
+    <string name="title_activity_asociatii_romana">Asociatii Studentesti</string>
+    <string name="title_activity_asociatii_engleza">Student Association</string>
+    <string name="title_activity_asociatii_franceza">Association des étudiants</string>
+    <string name="title_activity_asociatii_germana">Student Association</string>
+    <string name="title_activity_asociatii_turca">Öğrenci Derneği</string>
+    <string name="title_activity_asociatii_araba">جمعية الطلاب</string>
+    <string name="title_activity_secretariat_romana">Secretariat</string>
+    <string name="title_activity_secretariat_engleza">Secretariat</string>
+    <string name="title_activity_secretariat_franceza">Secrétariat</string>
+    <string name="title_activity_secretariat_germana">Sekretariat</string>
+    <string name="title_activity_secretariat_turca">Müdüriyet</string>
+    <string name="title_activity_secretariat_araba">سكرتارية</string>
+    <string name="title_activity_subiecte_anterioare">Previous Topics</string>
+    <string name="title_activity_acte_taxe_romana">Acte si Taxe</string>
+    <string name="title_activity_acte_taxe_engleza">Instruments and Fees</string>
+    <string name="title_activity_acte_taxe_franceza">Instruments et Frais</string>
+    <string name="title_activity_acte_taxe_germana">Instrumente und Gebühren</string>
+    <string name="title_activity_acte_taxe_turca">Araçlar ve Ücretler</string>
+    <string name="title_activity_acte_taxe_araba">الصكوك والرسوم</string>
+    <string name="title_activity_orar_romana">Orar</string>
+    <string name="title_activity_orar_engleza">Schedule</string>
+    <string name="title_activity_orar_franceza">Calendrier</string>
+    <string name="title_activity_orar_germana">Zeitplan</string>
+    <string name="title_activity_orar_turca">Program</string>
+    <string name="title_activity_orar_araba">جدول</string>
+    <string name="title_activity_harta">Map</string>
+    <string name="title_activity_acces">Access</string>
+    <string name="title_activity_regie_romana">Regie</string>
+    <string name="title_activity_regie_engleza">Student Campus</string>
+    <string name="title_activity_regie_franceza">Campus de l\'étudiant</string>
+    <string name="title_activity_regie_germana">Studentenwohnheime</string>
+    <string name="title_activity_regie_turca">Öğrenci Kampus</string>
+    <string name="title_activity_regie_araba">طالب في الحرم الجامعي</string>
+    <string name="title_activity_centru_romana">Centru</string>
+    <string name="title_activity_centru_engleza">City Center</string>
+    <string name="title_activity_centru_franceza">Centre-ville</string>
+    <string name="title_activity_centru_germana">Stadtzentrum</string>
+    <string name="title_activity_centru_turca">Şehir Merkezi</string>
+    <string name="title_activity_centru_araba">وسط المدينة</string>
+    <string name="title_activity_muzee_romana">Muzee,Teatre si Cinematografe</string>
+    <string name="title_activity_muzee_engleza">Museums, Theatres and Cinemas</string>
+    <string name="title_activity_muzee_franceza">Musées, Théâtres et Cinémas</string>
+    <string name="title_activity_muzee_germana">Museen,Theater und Kinos</string>
+    <string name="title_activity_muzee_turca">Müzeler, Tiyatrolar ve Sinemalar</string>
+    <string name="title_activity_muzee_araba">المتاحف والمسارح ودور السينما</string>
+    <string name="title_activity_regulament_upb">University Rules</string>
+    <string name="title_activity_burse_romana">Burse</string>
+    <string name="title_activity_burse_engleza">Scolarships</string>
+    <string name="title_activity_burse_franceza">Bourses d\'études</string>
+    <string name="title_activity_burse_germana">Stipendien</string>
+    <string name="title_activity_burse_turca">Burslar</string>
+    <string name="title_activity_burse_araba">المنح الدراسية</string>
+    <string name="title_activity_restante_romana">Restante</string>
+    <string name="title_activity_restante_engleza">Backlogs</string>
+    <string name="title_activity_restante_franceza">Arriéré</string>
+    <string name="title_activity_restante_germana">Rückstand</string>
+    <string name="title_activity_restante_turca">Birikim</string>
+    <string name="title_activity_restante_araba">تراكم الأعمال غير المنجزة</string>
+    <string name="title_activity_contact_romana">Contact</string>
+    <string name="title_activity_contact_engleza">Contact</string>
+    <string name="title_activity_contact_franceza">Contacter</string>
+    <string name="title_activity_contact_germana">Kontakt</string>
+    <string name="title_activity_contact_turca">Temas</string>
+    <string name="title_activity_contact_araba">اتصال</string>
+    <string name="textView1">WELCOME</string>
+    <string name="textView2">Select your language:</string>
+    <string name="button1">Romana</string>
+    <string name="button2">English</string>
+    <string name="button3">Français</string>
+    <string name="button4">Deutsch</string>
+    <string name="button5">Türk</string>
+    <string name="button6">العربية</string>
+    <color name="iceberg">#56A5EC</color>
+    <color name="platinum">#E5E4E2</color>
+     <color name="jungle">#F70D1A</color>
+    <string name="despre_romana">Despre FILS</string>
+    <string name="admitere_romana">Admitere</string>
+    <string name="orientare_romana">Orientare</string>
+    <string name="timp_liber_romana">Timp Liber</string>
+    <string name="altele_romana">Altele</string>
+    
+    <string name="despre_engleza">About FILS</string>
+    <string name="admitere_engleza">Acceptance</string>
+    <string name="orientare_engleza">Orientation</string>
+    <string name="timp_liber_engleza">Free time</string>
+    <string name="altele_engleza">Other</string>
+    
+    <string name="despre_franceza">Sur FILS</string>
+    <string name="admitere_franceza">Admission</string>
+    <string name="orientare_franceza">Orientation</string>
+    <string name="timp_liber_franceza">Loisir</string>
+    <string name="altele_franceza">Autre</string>
+    
+    <string name="despre_germana">Über FILS</string>
+    <string name="admitere_germana">Eintritt</string>
+    <string name="orientare_germana">Orientierung</string>
+    <string name="timp_liber_germana">Freizeit</string>
+    <string name="altele_germana">Andere</string>
+    
+    <string name="despre_turca">Hakkında FILS</string>
+    <string name="admitere_turca">Kabul</string>
+    <string name="orientare_turca">Oryantasyon</string>
+    <string name="timp_liber_turca">Boş</string>
+    <string name="altele_turca">Diğer</string>
+    
+    <string name="despre_araba">وأناهوهو حول </string>
+    <string name="admitere_araba">قبول</string>
+    <string name="orientare_araba">توجه</string>
+    <string name="timp_liber_araba">وقت الفراغ</string>
+    <string name="altele_araba">آخر</string>
+    
+    <string name="fil_eng_romana">Filiera Engleza</string>
+    <string name="fil_franc_romana">Filiera Franceza</string>
+    <string name="fil_germ_romana">Filiera Germana</string>
+    <string name="asociatii_romana">Asociatii Studentesti</string>
+    
+    <string name="fil_eng_engleza">English Branch</string>
+    <string name="fil_franc_engleza">French Branch</string>
+    <string name="fil_germ_engleza">German Branch</string>
+    <string name="asociatii_engleza">Student Association</string>
+    
+    <string name="fil_eng_franceza">Anglais Connexion</string>
+    <string name="fil_franc_franceza">Connexion français</string>
+    <string name="fil_germ_franceza">Connexion Allemand</string>
+    <string name="asociatii_franceza">Association des étudiants</string>
+    
+    <string name="fil_eng_germana">Englisch-Verbindung</string>
+    <string name="fil_franc_germana">Französisch-Verbindung</string>
+    <string name="fil_germ_germana">Deutsch-Verbindung</string>
+    <string name="asociatii_germana">Student Association</string>
+    
+    <string name="fil_eng_turca">İngilizce Bağlantı</string>
+    <string name="fil_franc_turca">Fransız Bağlantı</string>
+    <string name="fil_germ_turca">Alman Bağlantı</string>
+    <string name="asociatii_turca">Öğrenci Derneği</string>
+    
+    <string name="fil_eng_araba">اتصال الانجليزية</string>
+    <string name="fil_franc_araba">اتصال الفرنسية</string>
+    <string name="fil_germ_araba">اتصال الألمانية</string>
+    <string name="asociatii_araba">جمعية الطلاب</string>
+    
+    <string name="secretariat_romana">Secretariat</string>
+    <string name="subiecte_anterioare_romana">Subiecte Anterioare</string>
+    <string name="acte_taxe_romana">Acte si Taxe</string>
+    
+     <string name="secretariat_engleza">Secretariat</string>
+    <string name="subiecte_anterioare_engleza">Previous Topics</string>
+    <string name="acte_taxe_engleza">Instruments and Fees</string>
+    
+     <string name="secretariat_franceza">Secrétariat</string>
+    <string name="subiecte_anterioare_franceza">Sujets précédents</string>
+    <string name="acte_taxe_franceza">Instruments et Frais</string>
+    
+     <string name="secretariat_germana">Sekretariat</string>
+    <string name="subiecte_anterioare_germana">Vorherige Themen</string>
+    <string name="acte_taxe_germana">Instrumente und Gebühren</string>
+    
+     <string name="secretariat_turca">Müdüriyet</string>
+    <string name="subiecte_anterioare_turca">Önceki Konular</string>
+    <string name="acte_taxe_turca">Araçlar ve Ücretler</string>
+    
+     <string name="secretariat_araba">سكرتارية</string>
+    <string name="subiecte_anterioare_araba">مواضيع سابقة</string>
+    <string name="acte_taxe_araba">الصكوك والرسوم</string>
+    
+    <string name="orar_romana">Orar</string>
+    <string name="harta_romana">Harta Polithnica</string>
+    <string name="acces_romana">Acces(Harti Metrorex si RATB)</string>
+    
+     <string name="orar_engleza">Schedule</string>
+    <string name="harta_engleza">University Map</string>
+    <string name="acces_engleza">Access (METROREX and RATB Maps)</string>
+    
+     <string name="orar_franceza">Calendrier</string>
+    <string name="harta_franceza">Université carte</string>
+    <string name="acces_franceza">Accès (METROREX et RATB Cartes)</string>
+    
+     <string name="orar_germana">Zeitplan</string>
+    <string name="harta_germana">Universität Karte</string>
+    <string name="acces_germana">Access (Metrorex und RATB Karten)</string>
+    
+     <string name="orar_turca">Program</string>
+    <string name="harta_turca">Üniversite Haritası</string>
+    <string name="acces_turca">Erişim (Harita METROREX ve RATB)</string>
+    
+     <string name="orar_araba">جدول</string>
+    <string name="harta_araba">الجامعة الخريطة</string>
+    <string name="acces_araba">وصول (خرائط ةثفقخقثء  والنقل الحضري)</string>
+    
+     <string name="regie_romana">Regie</string>
+    <string name="centru_romana">Centru</string>
+    <string name="muzee_romana">Muzee,Teatre si Cinematografe</string>
+    
+    <string name="regie_engleza">Student Campus</string>
+    <string name="centru_engleza">City Center</string>
+    <string name="muzee_engleza">Museums, Theatres and Cinemas</string>
+    
+    <string name="regie_franceza">Campus de l\'étudiant</string>
+    <string name="centru_franceza">Centre-ville</string>
+    <string name="muzee_franceza">Musées, Théâtres et Cinémas</string>
+    
+    <string name="regie_germana">Studentenwohnheime</string>
+    <string name="centru_germana">Stadtzentrum</string>
+    <string name="muzee_germana">Museen,Theater und Kinos</string>
+    
+    <string name="regie_turca">Öğrenci Kampus</string>
+    <string name="centru_turca">Şehir Merkezi</string>
+    <string name="muzee_turca">Müzeler, Tiyatrolar ve Sinemalar</string>
+    
+    <string name="regie_araba">طالب في الحرم الجامعي</string>
+    <string name="centru_araba">وسط المدينة</string>
+    <string name="muzee_araba">المتاحف والمسارح ودور السينما</string>
+    
+    <string name="burse_romana">Burse</string>
+    <string name="restante_romana">Restante</string>
+    <string name="regulament_romana">Regulament</string>
+    <string name="contact_romana">Contact</string>
+    
+    <string name="burse_engleza">Scolarships</string>
+    <string name="restante_engleza">Backlogs</string>
+    <string name="regulament_engleza">Rules</string>
+    <string name="contact_engleza">Contact</string>
+    
+    <string name="burse_franceza">Bourses d\'études</string>
+    <string name="restante_franceza">Arriéré</string>
+    <string name="regulament_franceza">Réglementation</string>
+    <string name="contact_franceza">Contacter</string>
+    
+    <string name="burse_germana">Stipendien</string>
+    <string name="restante_germana">Rückstand</string>
+    <string name="regulament_germana">Regulament</string>
+    <string name="contact_germana">Kontakt</string>
+    
+    <string name="burse_turca">Burslar</string>
+    <string name="restante_turca">Birikim</string>
+    <string name="regulament_turca">Düzenleme</string>
+    <string name="contact_turca">Temas</string>
+    
+    <string name="burse_araba">المنح الدراسية</string>
+    <string name="restante_araba">تراكم الأعمال غير المنجزة</string>
+    <string name="regulament_araba">تنظيم</string>
+    <string name="contact_araba">اتصال</string>
+    
+    
+</resources>

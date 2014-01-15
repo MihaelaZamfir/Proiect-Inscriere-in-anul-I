@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:layout_gravity="center|center_vertical"
+    android:background="@drawable/asd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DespreFranceza" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:textColor="@color/platinum"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/fil_germ_franceza" 
+        android:onClick="DespreGermFranceza"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:textColor="@color/platinum"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="31dp"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/fil_franc_franceza"
+        android:onClick="DespreFrancFranceza" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="67dp"
+        android:textColor="@color/platinum"
+        android:layout_toLeftOf="@+id/button2"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/fil_eng_franceza" 
+		android:onClick="DespreEngFranceza" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignTop="@+id/button3"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/asociatii_franceza"
+        android:textColor="@color/platinum"
+        android:onClick="DespreAsociatiiFranceza" />
+    
+</RelativeLayout>

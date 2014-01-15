@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:layout_gravity="center|center_vertical"
+    android:background="@drawable/asd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WelcomeTurca" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:textColor="@color/platinum"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/orientare_turca" 
+        android:onClick="WelcomeOrientareTurca"/>
+	
+    <Button
+        android:id="@+id/button2"
+        android:textColor="@color/platinum"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="31dp"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/admitere_turca" 
+        android:onClick="WelcomeAdmitereTurca"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:textColor="@color/platinum"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="67dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/despre_turca" 
+        android:onClick="WelcomeDespreTurca"/>
+ 		
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:textColor="@color/platinum"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/altele_turca" 
+        android:onClick="WelcomeAlteleTurca"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/big_grey_up"
+        android:text="@string/timp_liber_turca"
+        android:textColor="@color/platinum" 
+     	android:onClick="WelcomeTimpTurca" />
+    
+</RelativeLayout>

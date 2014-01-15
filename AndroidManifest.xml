@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.filsstudentguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.filsstudentguide.SelectLanguage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.WelcomeRomana"
+            android:label="@string/title_activity_welcome_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.WelcomeEngleza"
+            android:label="@string/title_activity_welcome_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.WelcomeFranceza"
+            android:label="@string/title_activity_welcome_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.WelcomeGermana"
+            android:label="@string/title_activity_welcome_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.WelcomeTurca"
+            android:label="@string/title_activity_welcome_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.WelcomeAraba"
+            android:label="@string/title_activity_welcome_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.DespreRomana"
+            android:label="@string/title_activity_despre_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.DespreEngleza"
+            android:label="@string/title_activity_despre_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.DespreFranceza"
+            android:label="@string/title_activity_despre_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.DespreGermana"
+            android:label="@string/title_activity_despre_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.DespreTurca"
+            android:label="@string/title_activity_despre_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.DespreAraba"
+            android:label="@string/title_activity_despre_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AdmitereRomana"
+            android:label="@string/title_activity_admitere_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AdmitereEngleza"
+            android:label="@string/title_activity_admitere_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AdmitereFranceza"
+            android:label="@string/title_activity_admitere_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AdmitereGermana"
+            android:label="@string/title_activity_admitere_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AdmitereTurca"
+            android:label="@string/title_activity_admitere_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AdmitereAraba"
+            android:label="@string/title_activity_admitere_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrientareRomana"
+            android:label="@string/title_activity_orientare_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrientareEngleza"
+            android:label="@string/title_activity_orientare_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrientareFranceza"
+            android:label="@string/title_activity_orientare_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrientareGermana"
+            android:label="@string/title_activity_orientare_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrientareTurca"
+            android:label="@string/title_activity_orientare_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrientareAraba"
+            android:label="@string/title_activity_orientare_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.TimpRomana"
+            android:label="@string/title_activity_timp_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.TimpEngleza"
+            android:label="@string/title_activity_timp_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.TimpFranceza"
+            android:label="@string/title_activity_timp_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.TimpGermana"
+            android:label="@string/title_activity_timp_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.TimpTurca"
+            android:label="@string/title_activity_timp_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.TimpAraba"
+            android:label="@string/title_activity_timp_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AlteleRomana"
+            android:label="@string/title_activity_altele_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AlteleEngleza"
+            android:label="@string/title_activity_altele_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AlteleGermana"
+            android:label="@string/title_activity_altele_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AlteleFranceza"
+            android:label="@string/title_activity_altele_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AlteleTurca"
+            android:label="@string/title_activity_altele_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AlteleAraba"
+            android:label="@string/title_activity_altele_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilFrancRomana"
+            android:label="@string/title_activity_fil_franc_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilFrancEngleza"
+            android:label="@string/title_activity_fil_franc_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilFrancFranceza"
+            android:label="@string/title_activity_fil_franc_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilFrancGermana"
+            android:label="@string/title_activity_fil_franc_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilFrancTurca"
+            android:label="@string/title_activity_fil_franc_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilFrancAraba"
+            android:label="@string/title_activity_fil_franc_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilEngRomana"
+            android:label="@string/title_activity_fil_eng_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilEngEngleza"
+            android:label="@string/title_activity_fil_eng_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilEngFranceza"
+            android:label="@string/title_activity_fil_eng_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilEngGermana"
+            android:label="@string/title_activity_fil_eng_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilEngTurca"
+            android:label="@string/title_activity_fil_eng_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilEngAraba"
+            android:label="@string/title_activity_fil_eng_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilGermRomana"
+            android:label="@string/title_activity_fil_germ_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilGermEngleza"
+            android:label="@string/title_activity_fil_germ_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilGermFranceza"
+            android:label="@string/title_activity_fil_germ_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilGermGermana"
+            android:label="@string/title_activity_fil_germ_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilGermTurca"
+            android:label="@string/title_activity_fil_germ_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.FilGermAraba"
+            android:label="@string/title_activity_fil_germ_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AsociatiiRomana"
+            android:label="@string/title_activity_asociatii_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AsociatiiEngleza"
+            android:label="@string/title_activity_asociatii_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AsociatiiFranceza"
+            android:label="@string/title_activity_asociatii_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AsociatiiGermana"
+            android:label="@string/title_activity_asociatii_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AsociatiiTurca"
+            android:label="@string/title_activity_asociatii_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.AsociatiiAraba"
+            android:label="@string/title_activity_asociatii_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SecretariatRomana"
+            android:label="@string/title_activity_secretariat_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SecretariatEngleza"
+            android:label="@string/title_activity_secretariat_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SecretariatFranceza"
+            android:label="@string/title_activity_secretariat_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SecretariatGermana"
+            android:label="@string/title_activity_secretariat_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SecretariatTurca"
+            android:label="@string/title_activity_secretariat_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SecretariatAraba"
+            android:label="@string/title_activity_secretariat_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.SubiecteAnterioare"
+            android:label="@string/title_activity_subiecte_anterioare" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ActeTaxeRomana"
+            android:label="@string/title_activity_acte_taxe_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ActeTaxeEngleza"
+            android:label="@string/title_activity_acte_taxe_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ActeTaxeFranceza"
+            android:label="@string/title_activity_acte_taxe_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ActeTaxeGermana"
+            android:label="@string/title_activity_acte_taxe_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ActeTaxeTurca"
+            android:label="@string/title_activity_acte_taxe_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ActeTaxeAraba"
+            android:label="@string/title_activity_acte_taxe_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrarRomana"
+            android:label="@string/title_activity_orar_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrarEngleza"
+            android:label="@string/title_activity_orar_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrarFranceza"
+            android:label="@string/title_activity_orar_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrarGermana"
+            android:label="@string/title_activity_orar_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrarTurca"
+            android:label="@string/title_activity_orar_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.OrarAraba"
+            android:label="@string/title_activity_orar_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.Harta"
+            android:label="@string/title_activity_harta" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.Acces"
+            android:label="@string/title_activity_acces" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegieRomana"
+            android:label="@string/title_activity_regie_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegieEngleza"
+            android:label="@string/title_activity_regie_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegieFranceza"
+            android:label="@string/title_activity_regie_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegieGermana"
+            android:label="@string/title_activity_regie_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegieTurca"
+            android:label="@string/title_activity_regie_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegieAraba"
+            android:label="@string/title_activity_regie_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.CentruRomana"
+            android:label="@string/title_activity_centru_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.CentruEngleza"
+            android:label="@string/title_activity_centru_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.CentruFranceza"
+            android:label="@string/title_activity_centru_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.CentruGermana"
+            android:label="@string/title_activity_centru_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.CentruTurca"
+            android:label="@string/title_activity_centru_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.CentruAraba"
+            android:label="@string/title_activity_centru_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.MuzeeRomana"
+            android:label="@string/title_activity_muzee_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.MuzeeEngleza"
+            android:label="@string/title_activity_muzee_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.MuzeeFranceza"
+            android:label="@string/title_activity_muzee_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.MuzeeGermana"
+            android:label="@string/title_activity_muzee_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.MuzeeTurca"
+            android:label="@string/title_activity_muzee_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.MuzeeAraba"
+            android:label="@string/title_activity_muzee_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RegulamentUPB"
+            android:label="@string/title_activity_regulament_upb" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.BurseRomana"
+            android:label="@string/title_activity_burse_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.BurseEngleza"
+            android:label="@string/title_activity_burse_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.BurseFranceza"
+            android:label="@string/title_activity_burse_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.BurseGermana"
+            android:label="@string/title_activity_burse_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.BurseTurca"
+            android:label="@string/title_activity_burse_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.BurseAraba"
+            android:label="@string/title_activity_burse_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RestanteRomana"
+            android:label="@string/title_activity_restante_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RestanteEngleza"
+            android:label="@string/title_activity_restante_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RestanteFranceza"
+            android:label="@string/title_activity_restante_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RestanteGermana"
+            android:label="@string/title_activity_restante_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RestanteTurca"
+            android:label="@string/title_activity_restante_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.RestanteAraba"
+            android:label="@string/title_activity_restante_araba" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ContactRomana"
+            android:label="@string/title_activity_contact_romana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ContactEngleza"
+            android:label="@string/title_activity_contact_engleza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ContactFranceza"
+            android:label="@string/title_activity_contact_franceza" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ContactGermana"
+            android:label="@string/title_activity_contact_germana" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ContactTurca"
+            android:label="@string/title_activity_contact_turca" >
+        </activity>
+        <activity
+            android:name="com.example.filsstudentguide.ContactAraba"
+            android:label="@string/title_activity_contact_araba" >
+        </activity>
+    </application>
+
+</manifest>
