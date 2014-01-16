@@ -1,0 +1,93 @@
+
+/* Class = "IBUIViewController"; title = "Home"; ObjectID = "CZ4-MO-1fc"; */
+"CZ4-MO-1fc.title" = "Home";
+
+/* Class = "IBUITabBarItem"; title = "Orientare"; ObjectID = "EgC-FM-TnG"; */
+"EgC-FM-TnG.title" = "Orientare";
+
+/* Class = "IBUIViewController"; title = "TimpLiber"; ObjectID = "Emq-7Y-zYh"; */
+"Emq-7Y-zYh.title" = "TimpLiber";
+
+/* Class = "IBUITabBarItem"; title = "Timp Liber"; ObjectID = "HzG-Kd-UF8"; */
+"HzG-Kd-UF8.title" = "Timp Liber";
+
+/* Class = "IBUITabBarItem"; title = "Altele"; ObjectID = "JLA-qU-Xv1"; */
+"JLA-qU-Xv1.title" = "Altele";
+
+/* Class = "IBUIButton"; normalTitle = "SECRETARIAT"; ObjectID = "JSD-IH-wYS"; */
+"JSD-IH-wYS.normalTitle" = "SECRETARIAT";
+
+/* Class = "IBUIButton"; normalTitle = "ACCES"; ObjectID = "Jbg-1G-Mal"; */
+"Jbg-1G-Mal.normalTitle" = "ACCES";
+
+/* Class = "IBUIButton"; normalTitle = "ORAR"; ObjectID = "JdJ-sh-ZDL"; */
+"JdJ-sh-ZDL.normalTitle" = "ORAR";
+
+/* Class = "IBUIViewController"; title = "Admitere"; ObjectID = "QUy-BD-bpt"; */
+"QUy-BD-bpt.title" = "Admitere";
+
+/* Class = "IBUIViewController"; title = "About"; ObjectID = "RNY-3s-SjK"; */
+"RNY-3s-SjK.title" = "About";
+
+/* Class = "IBUITabBarItem"; title = "Admitere"; ObjectID = "Z7h-1E-pvt"; */
+"Z7h-1E-pvt.title" = "Admitere";
+
+/* Class = "IBUIButton"; normalTitle = "Restante"; ObjectID = "Zit-Lv-jUr"; */
+"Zit-Lv-jUr.normalTitle" = "Restante";
+
+/* Class = "IBUIButton"; normalTitle = "Contact"; ObjectID = "b9C-Gl-yn2"; */
+"b9C-Gl-yn2.normalTitle" = "Contact";
+
+/* Class = "IBUIButton"; normalTitle = "Organizatii Studentesti"; ObjectID = "bTj-aL-kk5"; */
+"bTj-aL-kk5.normalTitle" = "Organizatii Studentesti";
+
+/* Class = "IBUIButton"; normalTitle = "Tips & Tricks"; ObjectID = "bwf-df-DNk"; */
+"bwf-df-DNk.normalTitle" = "Tips & Tricks";
+
+/* Class = "IBUIButton"; normalTitle = "Timp liber"; ObjectID = "e0n-sW-QNs"; */
+"e0n-sW-QNs.normalTitle" = "Timp liber";
+
+/* Class = "IBUIButton"; normalTitle = "SUBIECTE ANTERIOARE"; ObjectID = "e54-kg-az8"; */
+"e54-kg-az8.normalTitle" = "SUBIECTE ANTERIOARE";
+
+/* Class = "IBUIButton"; normalTitle = "Orientare"; ObjectID = "eHa-aD-GUk"; */
+"eHa-aD-GUk.normalTitle" = "Orientare";
+
+/* Class = "IBUIButton"; normalTitle = "Admitere"; ObjectID = "glk-8i-6dI"; */
+"glk-8i-6dI.normalTitle" = "Admitere";
+
+/* Class = "IBUIButton"; normalTitle = "Altele"; ObjectID = "i9b-5R-QSn"; */
+"i9b-5R-QSn.normalTitle" = "Altele";
+
+/* Class = "IBUIButton"; normalTitle = "Burse"; ObjectID = "jF3-bP-45n"; */
+"jF3-bP-45n.normalTitle" = "Burse";
+
+/* Class = "IBUIButton"; normalTitle = "HARTA UPB"; ObjectID = "mqA-4J-ME6"; */
+"mqA-4J-ME6.normalTitle" = "HARTA UPB";
+
+/* Class = "IBUIButton"; normalTitle = "Regie & Centru"; ObjectID = "nLj-7t-TQw"; */
+"nLj-7t-TQw.normalTitle" = "Regie & Centru";
+
+/* Class = "IBUIButton"; normalTitle = "About"; ObjectID = "nLs-gJ-yAv"; */
+"nLs-gJ-yAv.normalTitle" = "About";
+
+/* Class = "IBUIViewController"; title = "Altele"; ObjectID = "sDQ-ny-Opg"; */
+"sDQ-ny-Opg.title" = "Altele";
+
+/* Class = "IBUIButton"; normalTitle = "ACTE & TAXE"; ObjectID = "t5B-Pa-svc"; */
+"t5B-Pa-svc.normalTitle" = "ACTE & TAXE";
+
+/* Class = "IBUITabBarItem"; title = "Home"; ObjectID = "u1e-5L-l1D"; */
+"u1e-5L-l1D.title" = "Home";
+
+/* Class = "IBUITabBarItem"; title = "About"; ObjectID = "wud-hW-8jV"; */
+"wud-hW-8jV.title" = "About";
+
+/* Class = "IBUILabel"; text = "HEADER"; ObjectID = "xDZ-qI-i3f"; */
+"xDZ-qI-i3f.text" = "HEADER";
+
+/* Class = "IBUIButton"; normalTitle = "Regulament UPB"; ObjectID = "y7I-ZK-r9f"; */
+"y7I-ZK-r9f.normalTitle" = "Regulament UPB";
+
+/* Class = "IBUIViewController"; title = "Orientare"; ObjectID = "zyD-2r-DWN"; */
+"zyD-2r-DWN.title" = "Orientare";
